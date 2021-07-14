@@ -9,6 +9,8 @@ app.set('view engine', 'ejs')
 app.use(express.json())
 app.use('/api', user)
 
+//router
+//http://localhost:2000/user
 
 mongoose.connect('mongodb://localhost:27017/sample', {
     useCreateIndex: true,
